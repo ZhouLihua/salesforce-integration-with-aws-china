@@ -16,7 +16,7 @@ Salesforce提供了2种方案与AWS的event bridge集成。 Salesforce 作为Par
 方案二， AppFlow在中国区没有Launch
 
 ## Salesforce与AWS中国区集成的可选方案
-![架构图](./images/salesforce-apex-trigger-eventbridge.png)
+![架构图](./salesforce-apex-trigger-eventbridge.png)
 
 ### 安全
 相比于Salesforce提供的event relay方案，这个方案需要将AWS的credential（AK/SK）存储到Salesforce端。
@@ -38,8 +38,8 @@ Salesforce提供了2种方案与AWS的event bridge集成。 Salesforce 作为Par
   * 在AWS中国区账号中设置配置Event Bus/ Event Rule和 Target
   * 在Salesforce中创建/更新/删除账号
 ## 截图
-![Salesforce Apex Class](./images/apex-class.png)
-![Salesforce Apex Trigger](./images/appex-trigger.png)
-![AWS Event Bridge Conifg](./images/event-bridge-config-1.png)
-![AWS Event Bridge Conifg1](./images/event-bridge-config.png)
-![AWS CloudWatch](./images/aws-cloudwatch.png)
+![Salesforce Apex Class](./apex-class.png)
+![Salesforce Apex Trigger](./appex-trigger.png)
+![AWS Event Bridge Conifg](./event-bridge-config-1.png)
+![AWS Event Bridge Conifg1](./event-bridge-config.png)
+![AWS CloudWatch](./aws-cloudwatch.png)
